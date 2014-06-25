@@ -39,6 +39,11 @@
       <color rgba="0.0 0.8 0.0 1"/>
     </material>
   </xacro:property>
+  <xacro:property name="material_neon_greeen">
+    <material name="neon_green">
+      <color rgba="0 1 0 1"/>
+    </material>
+  </xacro:property>
   <xacro:property name="material_blue">
     <material name="blue">
       <color rgba="0.0 0.0 1.0 1"/>
