@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+
+<xacro:macro name="layer_puck">
+    <link name="bottom"/>
+
+        <joint name="bottom_joint" type="fixed">
+            <origin xyz="0 0 0.0102" rpy="0 0 0" />
+            <parent link="bottom"/>
+            <child link="bottom_link" />
+        </joint>
+
+    <link name="bottom_link">
+        <visual>
+            <geometry>
+                <mesh filename=""/>
+            </geometry>
+            <origin xyz="0.001 0 0.05199" rpy="0 0 0" />
+        </visual>
+        

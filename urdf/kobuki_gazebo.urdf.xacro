@@ -11,7 +11,7 @@
 	    <maxVel>1.0</maxVel>
 	  </gazebo>
 
-	  <gazebo reference="puser_link">
+	  <gazebo reference="pusher_link">
 	    <mu1>1.0</mu1>
 	    <mu2>1.0</mu2>
 	    <kp>1000000.0</kp>
