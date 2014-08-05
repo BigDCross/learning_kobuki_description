@@ -72,7 +72,7 @@
           <mesh filename="package://learning_kobuki_description/meshes/turtle_pusher.dae" />
         </geometry>
         <origin xyz="0.005 0 0.05199" rpy="0 0 0"/>
-        <material name="neon_green">
+        <material name="blue">
           <color rgba="0 1 0 1"/>
         </material>
       </visual>
